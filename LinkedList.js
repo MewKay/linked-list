@@ -179,18 +179,3 @@ const LinkedList = function LinkedListFactory() {
     removeAt,
   };
 };
-
-const List = LinkedList();
-List.append(15);
-List.prepend(154);
-List.append(18);
-List.prepend(51);
-List.append(1887);
-List.append(1544);
-List.append(1854848);
-console.log(List.toString());
-
-List.removeAt(1);
-console.log(List.toString());
-console.log(List.head);
-console.log(List.contains(51));
